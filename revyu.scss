@@ -1,0 +1,38 @@
+.shapeing {
+     position: absolute;
+     left: -2px;
+     top: 0px;
+     background: url("revyu images\Vector 1.png");
+     width: 1368px;
+     height: 768px;
+     z-index: -1;
+
+     background: rgba(255, 157, 1,0.07);
+
+     overflow : hidden;
+  }
+    
+  nav{
+    position: absolute;
+    left: 607px;
+    top: 31px;
+    background: white;
+    width: 708px;
+    height: 43px;
+
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      margin-top: 8em;
+
+      a {
+          color: black;
+          padding: .75em 2em;
+          display: flex;
+
+          &:hover {
+          background: rgb(235, 235, 235);
+          }
+      }
+    }
+  }
